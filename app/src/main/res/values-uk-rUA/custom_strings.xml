@@ -18,10 +18,10 @@
     <!-- App name -->
     <string name="app_name">Оновлення системи</string>
     <!-- Notifications -->
-    <string name="export_channel_title">Export completion</string>
+    <string name="export_channel_title">Експорт завершено</string>
     <string name="new_updates_channel_title">Нові оновлення</string>
     <string name="ongoing_channel_title">Поточні завантаження</string>
-    <string name="update_failed_channel_title">Update failed</string>
+    <string name="update_failed_channel_title">Помилка оновлення</string>
     <string name="verification_failed_notification">Не вдалося виконати перевірку</string>
     <string name="verifying_download_notification">Перевірка оновлення</string>
     <string name="downloading_notification">Завантаження</string>
@@ -29,8 +29,8 @@
     <string name="download_paused_error_notification">Помилка завантаження</string>
     <string name="download_completed_notification">Завантаження завершено</string>
     <string name="download_starting_notification">Початок завантаження</string>
-    <string name="update_failed_notification">Update failed</string>
-    <string name="check_for_update">Check for update</string>
+    <string name="update_failed_notification">Помилка оновлення</string>
+    <string name="check_for_update">Перевірити оновлення</string>
     <!-- Menu -->
     <string name="menu_delete_update">Видалити</string>
     <string name="menu_export_update">Експорт оновлення</string>
@@ -42,26 +42,26 @@
     <string name="snack_download_verification_failed">Не пройшла перевірка оновлення.</string>
     <string name="snack_download_verified">Завантаження завершено.</string>
     <string name="snack_update_not_installable">Це оновлення не можна інсталювати на поточну збірку.</string>
-    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
-    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> з <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> з <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Перевірка оновлення</string>
     <string name="list_no_updates">Оновлень не знайдено. Щоб вручну перевірити наявність оновлень, натисніть кнопку Оновити.</string>
     <string name="blocked_update_dialog_title">Оновлення заблоковане</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="blocked_update_dialog_summary">Це оновлення вимагає процедури чистої інсталяції вручну (Wipe/Format data перед встановленням оновлення). Будь ласка, завантажте збірку із нашого сайту, перезавантажтеся в режим відновлення і для цього дотримуйтесь процедур.</string>
     <!-- Actions -->
     <string name="action_download">Завантажити</string>
-    <string name="action_pause">Pause</string>
-    <string name="action_resume">Resume</string>
-    <string name="action_install">Install</string>
+    <string name="action_pause">Пауза</string>
+    <string name="action_resume">Продовжити</string>
+    <string name="action_install">Встановити</string>
     <string name="action_delete">Видалити</string>
     <string name="confirm_delete_dialog_title">Видалити файл</string>
     <string name="confirm_delete_dialog_message">Видалити обраний файл оновлення?</string>
     <string name="pause_button">Пауза</string>
     <string name="resume_button">Продовжити</string>
     <string name="reboot">Перезавантаження</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
-    <string name="details_button">View details</string>
+    <string name="reboot_needed_dialog_title">Необхідне перезавантаження</string>
+    <string name="reboot_needed_dialog_summary">Щоб завершити встановлення оновлення, необхідно перезавантажити пристрій. Ви бажаєте перезавантажити зараз?</string>
+    <string name="details_button">Докладніше</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Застосувати оновлення</string>
     <string name="apply_update_dialog_message">Ви збираєтесь оновитись на <xliff:g id="update_name">%1$s</xliff:g>.\n\nЯкщо Ви натиснете <xliff:g id="ok">%2$s</xliff:g>, пристрій перезавантажиться у Recovery для встановлення.\n\nПримітка: ця функція потребує сумісне Recovery, в іншому випадку оновлення необхідно встановити вручну.</string>
@@ -71,10 +71,10 @@
     <string name="installing_update_finished">Оновлення встановлено</string>
     <string name="finalizing_package">Завершення встановлення</string>
     <string name="dialog_prepare_zip_message">Підготовка оновлення</string>
-    <string name="dialog_battery_low_title">Low battery</string>
-    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
+    <string name="dialog_battery_low_title">Низький заряд батареї</string>
+    <string name="dialog_battery_low_message_pct">Рівень заряду батареї занизький, для продовження необхідно хоча б <xliff:g id="percent_discharging">%1$d</xliff:g>%% заряду або <xliff:g id="percent_charging">%2$d</xliff:g>%% під час зарядки.</string>
     <!-- Export update -->
-    <string name="update_export_success">Update exported</string>
+    <string name="update_export_success">Оновлення експортовано</string>
     <string name="update_export_failed">Failed to export update</string>
     <string name="update_export_in_progress">Already exporting an update</string>
     <string name="update_export_started">The update is being exported…</string>
@@ -118,6 +118,6 @@
     <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
     <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
     <string name="local_update_import_failure">Failed to import local update</string>
-    <string name="local_update_import_install">Install</string>
+    <string name="local_update_import_install">Встановити</string>
     <string name="local_update_import_progress">Importing local update\u2026</string>
 </resources>
