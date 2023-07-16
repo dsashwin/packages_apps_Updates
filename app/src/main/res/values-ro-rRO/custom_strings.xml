@@ -115,6 +115,6 @@
     <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
     <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
     <string name="local_update_import_failure">Failed to import local update</string>
-    <string name="local_update_import_install">Install</string>
+    <string name="local_update_import_install">Instalați</string>
     <string name="local_update_import_progress">Importing local update\u2026</string>
 </resources>
