@@ -75,32 +75,32 @@
     <string name="dialog_battery_low_message_pct">Рівень заряду батареї занизький, для продовження необхідно хоча б <xliff:g id="percent_discharging">%1$d</xliff:g>%% заряду або <xliff:g id="percent_charging">%2$d</xliff:g>%% під час зарядки.</string>
     <!-- Export update -->
     <string name="update_export_success">Оновлення експортовано</string>
-    <string name="update_export_failed">Failed to export update</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_failed">Не вдалося експортувати оновлення</string>
+    <string name="update_export_in_progress">Оновлення вже експортується</string>
+    <string name="update_export_started">Оновлення експортується…</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
-        <item quantity="one">1 second left</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> seconds left</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> seconds left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="one">Залишилась секунда</item>
+        <item quantity="few">Залишилось <xliff:g id="count">%d</xliff:g> секунд</item>
+        <item quantity="many">Залишилось <xliff:g id="count">%d</xliff:g> секунд</item>
+        <item quantity="other">Залишилось <xliff:g id="count">%d</xliff:g> секунд</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="one">1 minute left</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> minutes left</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> minutes left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="one">Залишилась хвилина</item>
+        <item quantity="few">Залишилося <xliff:g id="count">%d</xliff:g> хвилин</item>
+        <item quantity="many">Залишилося <xliff:g id="count">%d</xliff:g> хвилин</item>
+        <item quantity="other">Залишилося <xliff:g id="count">%d</xliff:g> хвилин</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="one">1 hour left</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> hours left</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> hours left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="one">Залишилася година</item>
+        <item quantity="few">Залишилось <xliff:g id="count">%d</xliff:g> годин</item>
+        <item quantity="many">Залишилось <xliff:g id="count">%d</xliff:g> годин</item>
+        <item quantity="other">Залишилось <xliff:g id="count">%d</xliff:g> годин</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_over_metered_network_title">Warning</string>
-    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_metered_network_warning">Do not show again</string>
+    <string name="update_over_metered_network_title">Увага</string>
+    <string name="update_over_metered_network_message">Ви збираєтесь завантажити пакет оновлень за допомогою мобільних даних, що ймовірно призведе до високого використання мобільного трафіку. Хочете продовжити?</string>
+    <string name="checkbox_metered_network_warning">Не показувати знову</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Розробники</string>
     <string name="donate_info_title">Підтримати проект</string>
@@ -113,11 +113,11 @@
     <string name="forum_info_summary">Останні дописи форуму</string>
     <string name="error_open_url">Не вдалося відкрити посилання у браузері</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
+    <string name="local_update_title">Локальне оновлення</string>
+    <string name="local_update_summary">Застосувати оновлення з локального сховища</string>
+    <string name="local_update_import_success">Ви вибрали:\n%1$s\n\nХочете його встановити?</string>
+    <string name="local_update_import_disabled">Не вдалося імпортувати локальне оновлення під час завантаження або оновлення</string>
+    <string name="local_update_import_failure">Не вдалося імпортувати локальне оновлення</string>
     <string name="local_update_import_install">Встановити</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_import_progress">Імпортування локального оновлення\u2026</string>
 </resources>
