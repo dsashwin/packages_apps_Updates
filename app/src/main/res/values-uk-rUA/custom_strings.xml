@@ -53,7 +53,7 @@
     <string name="action_pause">Pause</string>
     <string name="action_resume">Resume</string>
     <string name="action_install">Install</string>
-    <string name="action_delete">Delete</string>
+    <string name="action_delete">Видалити</string>
     <string name="confirm_delete_dialog_title">Видалити файл</string>
     <string name="confirm_delete_dialog_message">Видалити обраний файл оновлення?</string>
     <string name="pause_button">Пауза</string>
