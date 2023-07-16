@@ -30,7 +30,7 @@
     <string name="download_completed_notification">İndirme tamamlandı</string>
     <string name="download_starting_notification">İndirme başlatılıyor</string>
     <string name="update_failed_notification">Güncelleme başarısız</string>
-    <string name="check_for_update">Check for update</string>
+    <string name="check_for_update">Güncellemeleri kontrol ediniz</string>
     <!-- Menu -->
     <string name="menu_delete_update">Sil</string>
     <string name="menu_export_update">Güncellemeyi dışarı aktar</string>
@@ -47,7 +47,7 @@
     <string name="list_verifying_update">Güncelleme doğrulanıyor</string>
     <string name="list_no_updates">Yeni güncelleme bulunamadı. El ile yeni güncellemeleri kontrol etmek için Yenile tuşunu kullanın.</string>
     <string name="blocked_update_dialog_title">Güncelleme engellendi</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="blocked_update_dialog_summary">Bu güncelleme manuel olarak temiz bir kurulum prosedürü gerektirir. Güncellemeyi yüklemeden önce, Veri bölümünü silin ve biçimlendirin (Sil / Biçimlendir). Lütfen güncellemeyi web sitemizden indirin, cihazı kurtarma modunda yeniden başlatın ve prosedürleri izleyin.</string>
     <!-- Actions -->
     <string name="action_download">İndir</string>
     <string name="action_pause">Duraklat</string>
@@ -59,7 +59,7 @@
     <string name="pause_button">Duraklat</string>
     <string name="resume_button">Devam</string>
     <string name="reboot">Yeniden başlat</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
+    <string name="reboot_needed_dialog_title">Yeniden başlatma gerekli</string>
     <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
     <string name="details_button">View details</string>
     <!-- Installation -->
