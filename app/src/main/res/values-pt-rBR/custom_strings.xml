@@ -76,8 +76,8 @@
     <!-- Export update -->
     <string name="update_export_success">Atualização exportada</string>
     <string name="update_export_failed">Falha ao exportar atualização</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_in_progress">Uma atualização já está sendo exportada</string>
+    <string name="update_export_started">A atualização está sendo exportada…</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="one">1 segundo restante</item>
@@ -92,14 +92,14 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> horas restantes</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_over_metered_network_title">Warning</string>
-    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_metered_network_warning">Do not show again</string>
+    <string name="update_over_metered_network_title">Aviso</string>
+    <string name="update_over_metered_network_message">Você está prestes a baixar um pacote de atualização em uma rede limitada que provavelmente causará alto uso de dados. Deseja continuar?</string>
+    <string name="checkbox_metered_network_warning">Não mostrar novamente</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Mantenedor</string>
     <string name="donate_info_title">Doar</string>
     <string name="donate_info_summary">Apoie o desenvolvimento</string>
-    <string name="website_info_title">Website</string>
+    <string name="website_info_title">Site</string>
     <string name="website_info_summary">Visite o website do projeto</string>
     <string name="news_info_title">Notícias</string>
     <string name="news_info_summary">Mantenha-se informado sobre atualizações e outras novidades</string>
@@ -107,11 +107,11 @@
     <string name="forum_info_summary">Ver posts do fórum</string>
     <string name="error_open_url">Falha ao abrir a URL no navegador</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
+    <string name="local_update_title">Atualização local</string>
+    <string name="local_update_summary">Aplicar atualização do armazenamento local</string>
+    <string name="local_update_import_success">Você escolheu:\n%1$s\n\nVocê deseja instalá-lo?</string>
+    <string name="local_update_import_disabled">Não é possível importar a atualização local durante o download ou instalação de atualizações</string>
+    <string name="local_update_import_failure">Não foi possível importar o pacote de atualização</string>
     <string name="local_update_import_install">Instalar</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_import_progress">Importando pacote de atualização\u2026</string>
 </resources>
