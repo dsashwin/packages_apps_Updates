@@ -30,7 +30,7 @@
     <string name="download_completed_notification">Sťahovanie dokončené</string>
     <string name="download_starting_notification">Spúšťam sťahovanie</string>
     <string name="update_failed_notification">Aktualizácia zlyhala</string>
-    <string name="check_for_update">Check for update</string>
+    <string name="check_for_update">Skontrolovať aktualizácie</string>
     <!-- Menu -->
     <string name="menu_delete_update">Vymazať</string>
     <string name="menu_export_update">Export aktualizácie</string>
@@ -47,7 +47,7 @@
     <string name="list_verifying_update">Overujem aktualizáciu</string>
     <string name="list_no_updates">Neboli nájdené žiadne nové aktualizácie. Ak chcete ručne vyhľadať nové aktualizácie, použite tlačítko Aktualizovať.</string>
     <string name="blocked_update_dialog_title">Aktualizácia bola zablokovaná</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="blocked_update_dialog_summary">Táto aktualizácia vyžaduje manuálnu čistú inštaláciu (formátovanie Dátovej partície). Stiahnite si prosím aktualizáciu z našich webových stránok, reštartujte do režimu obnovy a postupujte podľa inštrukcií pre čistú inštaláciu.</string>
     <!-- Actions -->
     <string name="action_download">Stiahnuť</string>
     <string name="action_pause">Pauza</string>
@@ -59,9 +59,9 @@
     <string name="pause_button">Pozastaviť</string>
     <string name="resume_button">Obnoviť</string>
     <string name="reboot">Reštartovať</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
-    <string name="details_button">View details</string>
+    <string name="reboot_needed_dialog_title">Potrebný reštart</string>
+    <string name="reboot_needed_dialog_summary">Na dokončenie inštalácie aktualizácie je potrebné zariadenie reštartovať. Chcete teraz reštartovať?</string>
+    <string name="details_button">Zobraziť podrobnosti</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Aplikovať aktualizáciu</string>
     <string name="apply_update_dialog_message">Idete aktualizovať na <xliff:g id="update_name">%1$s</xliff:g>.\n\nAk stlačíte <xliff:g id="ok">%2$s</xliff:g>, zariadenie sa reštartuje do recovery režimu na inštaláciu aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery alebo treba aktualizácie nainštalovať ručne.</string>
@@ -74,10 +74,10 @@
     <string name="dialog_battery_low_title">Vybitá batéria</string>
     <string name="dialog_battery_low_message_pct">Úroveň nabitia batérie je príliš nízka, budete potrebovať aspoň <xliff:g id="percent_discharging">%1$d</xliff:g>%% batérie na pokračovanie, <xliff:g id="percent_charging">%2$d</xliff:g>%% pri nabíjaní.</string>
     <!-- Export update -->
-    <string name="update_export_success">Update exported</string>
-    <string name="update_export_failed">Failed to export update</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_success">Aktualizácia exportovaná</string>
+    <string name="update_export_failed">Nepodarilo sa exportovať aktualizáciu</string>
+    <string name="update_export_in_progress">Aktualizácia sa už exportuje</string>
+    <string name="update_export_started">Aktualizácia sa exportuje…</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="one">Zostáva 1 sekunda</item>
@@ -98,9 +98,9 @@
         <item quantity="other">Zostáva <xliff:g id="count">%d</xliff:g> hodín</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_over_metered_network_title">Warning</string>
-    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_metered_network_warning">Do not show again</string>
+    <string name="update_over_metered_network_title">Upozornenie</string>
+    <string name="update_over_metered_network_message">Chystáte sa stiahnuť aktualizáciu pomocou meranej siete, čo pravdepodobne zapríčiní veľkú spotrebu dát. Prajete si pokračovať?</string>
+    <string name="checkbox_metered_network_warning">Nabudúce nezobrazovať</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Správca</string>
     <string name="donate_info_title">Prispieť</string>
@@ -113,11 +113,11 @@
     <string name="forum_info_summary">Zobraziť príspevky na fóre</string>
     <string name="error_open_url">Nepodarilo sa otvoriť adresu URL v prehliadači</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
+    <string name="local_update_title">Lokálna aktualizácia</string>
+    <string name="local_update_summary">Použiť aktualizáciu z lokálneho úložiska</string>
+    <string name="local_update_import_success">Vybrali ste:\n%1$s\n\nChcete pokračovať s inštaláciou?</string>
+    <string name="local_update_import_disabled">Nie je možné importovať lokálnu aktualizáciu počas preberania alebo inštalácie aktualizácie</string>
+    <string name="local_update_import_failure">Nepodarilo sa importovať lokálnu aktualizáciu</string>
     <string name="local_update_import_install">Nainštalovať</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_import_progress">Importuje sa miestna aktualizácia\u2026</string>
 </resources>
