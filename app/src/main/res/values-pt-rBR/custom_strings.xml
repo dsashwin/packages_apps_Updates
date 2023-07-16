@@ -74,8 +74,8 @@
     <string name="dialog_battery_low_title">Bateria fraca</string>
     <string name="dialog_battery_low_message_pct">O nível da bateria está muito baixo, precisando de, pelo menos, <xliff:g id="percent_discharging">%1$d</xliff:g>%% de bateria para continuar, ou <xliff:g id="percent_charging">%2$d</xliff:g>%% se estiver carregando.</string>
     <!-- Export update -->
-    <string name="update_export_success">Update exported</string>
-    <string name="update_export_failed">Failed to export update</string>
+    <string name="update_export_success">Atualização exportada</string>
+    <string name="update_export_failed">Falha ao exportar atualização</string>
     <string name="update_export_in_progress">Already exporting an update</string>
     <string name="update_export_started">The update is being exported…</string>
     <!-- ETA -->
