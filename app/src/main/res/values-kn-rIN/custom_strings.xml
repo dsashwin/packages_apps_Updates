@@ -29,7 +29,7 @@
     <string name="download_paused_error_notification">Download error</string>
     <string name="download_completed_notification">Download completed</string>
     <string name="download_starting_notification">Starting download</string>
-    <string name="update_failed_notification">Update failed</string>
+    <string name="update_failed_notification">ನವೀಕರಣೆ ವಿಫಲವಾಯಿತು</string>
     <string name="check_for_update">Check for update</string>
     <!-- Menu -->
     <string name="menu_delete_update">Delete</string>
@@ -44,7 +44,7 @@
     <string name="snack_update_not_installable">This update can\'t be installed on top of the current build.</string>
     <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> ರಲ್ಲಿ <xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
-    <string name="list_verifying_update">Verifying update</string>
+    <string name="list_verifying_update">ನವಿಕರಣವನ್ನು ದೃಢೀಕರಿಸಲಾಗುತ್ತಿದೆ</string>
     <string name="list_no_updates">No new update found.</string>
     <string name="blocked_update_dialog_title">Update blocked</string>
     <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
@@ -58,7 +58,7 @@
     <string name="confirm_delete_dialog_message">ಆಯ್ಕೆಮಾಡಿದ ನವೀಕರಣೆ ಕಡತ ಅಳಿಸುವುದೇ?</string>
     <string name="pause_button">Pause</string>
     <string name="resume_button">Resume</string>
-    <string name="reboot">Reboot</string>
+    <string name="reboot">I am busy</string>
     <string name="reboot_needed_dialog_title">Restart needed</string>
     <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
     <string name="details_button">View details</string>
