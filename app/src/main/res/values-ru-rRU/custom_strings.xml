@@ -30,7 +30,7 @@
     <string name="download_completed_notification">Загрузка завершена</string>
     <string name="download_starting_notification">Загрузка началась</string>
     <string name="update_failed_notification">Сбой обновления</string>
-    <string name="check_for_update">Check for update</string>
+    <string name="check_for_update">Проверка обновлений</string>
     <!-- Menu -->
     <string name="menu_delete_update">Удалить</string>
     <string name="menu_export_update">Экспорт обновлений</string>
@@ -47,10 +47,10 @@
     <string name="list_verifying_update">Проверка обновлений</string>
     <string name="list_no_updates">Обновлений не найдено. Чтобы проверить наличие обновлений вручную, используйте кнопку Обновить.</string>
     <string name="blocked_update_dialog_title">Обновление заблокировано</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="blocked_update_dialog_summary">Это обновление требует ручной процедуры установки (Wipe/Format data перед установкой обновления). Пожалуйста, скачайте сборку с нашего сайта, перезагрузитесь в рекавери и следуйте процедуре, чтобы это сделать.</string>
     <!-- Actions -->
     <string name="action_download">Скачать</string>
-    <string name="action_pause">Приостановить</string>
+    <string name="action_pause">Пауза</string>
     <string name="action_resume">Возобновить</string>
     <string name="action_install">Установить</string>
     <string name="action_delete">Удалить</string>
@@ -59,9 +59,9 @@
     <string name="pause_button">Пауза</string>
     <string name="resume_button">Возобновить</string>
     <string name="reboot">Перезапуск</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
-    <string name="details_button">View details</string>
+    <string name="reboot_needed_dialog_title">Требуется перезагрузка</string>
+    <string name="reboot_needed_dialog_summary">Чтобы завершить установку обновления, необходимо перезагрузить устройство. Вы хотите перезапустить сейчас?</string>
+    <string name="details_button">Просмотреть детали</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Применить обновление</string>
     <string name="apply_update_dialog_message">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> устройство будет перезапущено и переведено в режим восстановления для установки новой версии.\n\nПримечание: для этой функции необходим совместимый режим восстановления. При возникновении ошибки потребуется установить обновление вручную.</string>
@@ -74,33 +74,33 @@
     <string name="dialog_battery_low_title">Низкий заряд батареи</string>
     <string name="dialog_battery_low_message_pct">Уровень заряда батареи слишком низкий, для продолжения необходимо хотя бы <xliff:g id="percent_discharging">%1$d</xliff:g>%% заряда или <xliff:g id="percent_charging">%2$d</xliff:g>%% во время зарядки.</string>
     <!-- Export update -->
-    <string name="update_export_success">Update exported</string>
-    <string name="update_export_failed">Failed to export update</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_success">Обновление экспортировано</string>
+    <string name="update_export_failed">Ошибка при выполнении экспорта обновления</string>
+    <string name="update_export_in_progress">Экспорт уже выполняется</string>
+    <string name="update_export_started">Обновление экспортируется...</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="one">осталась <xliff:g id="count">%d</xliff:g> секунда</item>
-        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> секунды</item>
+        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> секунд</item>
         <item quantity="many">осталось <xliff:g id="count">%d</xliff:g> секунд</item>
         <item quantity="other">осталось <xliff:g id="count">%d</xliff:g> секунд</item>
     </plurals>
     <plurals name="eta_minutes">
         <item quantity="one">осталась <xliff:g id="count">%d</xliff:g> минута</item>
-        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> минуты</item>
+        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> минут</item>
         <item quantity="many">осталось <xliff:g id="count">%d</xliff:g> минут</item>
         <item quantity="other">осталось <xliff:g id="count">%d</xliff:g> минут</item>
     </plurals>
     <plurals name="eta_hours">
         <item quantity="one">остался <xliff:g id="count">%d</xliff:g> час</item>
-        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> часа</item>
+        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> часов</item>
         <item quantity="many">осталось <xliff:g id="count">%d</xliff:g> часов</item>
         <item quantity="other">осталось <xliff:g id="count">%d</xliff:g> часов</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_over_metered_network_title">Warning</string>
-    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_metered_network_warning">Do not show again</string>
+    <string name="update_over_metered_network_title">Внимание</string>
+    <string name="update_over_metered_network_message">Вы собираетесь загрузить пакет обновления через мобильную сеть, что, вероятно, приведет к значительному расходу данных. Продолжить?</string>
+    <string name="checkbox_metered_network_warning">Не показывать снова</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Разработчик</string>
     <string name="donate_info_title">Пожертвовать</string>
@@ -113,11 +113,11 @@
     <string name="forum_info_summary">Последние сообщения на форуме</string>
     <string name="error_open_url">Не удалось открыть ссылку</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
+    <string name="local_update_title">Локальное обновление</string>
+    <string name="local_update_summary">Применить обновление с локального хранилища</string>
+    <string name="local_update_import_success">Вы выбрали:\n%1$s\n\nВы хотите установить его?</string>
+    <string name="local_update_import_disabled">Невозможно импортировать локальное обновление при загрузке или установке обновления</string>
+    <string name="local_update_import_failure">Не удалось импортировать локальное обновление</string>
     <string name="local_update_import_install">Установить</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_import_progress">Импортирование локального обновления\u2026</string>
 </resources>
