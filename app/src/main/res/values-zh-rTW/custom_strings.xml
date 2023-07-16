@@ -74,10 +74,10 @@
     <string name="dialog_battery_low_title">電量不足</string>
     <string name="dialog_battery_low_message_pct">電池電量過低，您需要至少 <xliff:g id="percent_discharging">%1$d</xliff:g>%% 的電量才能繼續；如果正在充電，則需要 <xliff:g id="percent_charging">%2$d</xliff:g>%% 的電量才能繼續。</string>
     <!-- Export update -->
-    <string name="update_export_success">Update exported</string>
-    <string name="update_export_failed">Failed to export update</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_success">更新已匯出</string>
+    <string name="update_export_failed">更新匯出失敗</string>
+    <string name="update_export_in_progress">已匯出一筆更新</string>
+    <string name="update_export_started">正在匯出更新…</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="other">還剩 <xliff:g id="count">%d</xliff:g> 秒鐘</item>
@@ -89,7 +89,7 @@
         <item quantity="other">還剩 <xliff:g id="count">%d</xliff:g> 小時</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_over_metered_network_title">Warning</string>
+    <string name="update_over_metered_network_title">警告</string>
     <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
     <string name="checkbox_metered_network_warning">Do not show again</string>
     <!-- Info section -->
