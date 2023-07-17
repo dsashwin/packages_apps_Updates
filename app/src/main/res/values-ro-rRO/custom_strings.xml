@@ -30,7 +30,7 @@
     <string name="download_completed_notification">Descărcare terminată</string>
     <string name="download_starting_notification">Pornire descărcare</string>
     <string name="update_failed_notification">Actualizare eșuată</string>
-    <string name="check_for_update">Check for update</string>
+    <string name="check_for_update">Verifică pentru actualizare</string>
     <!-- Menu -->
     <string name="menu_delete_update">Șterge</string>
     <string name="menu_export_update">Exportează actualizarea</string>
@@ -47,7 +47,7 @@
     <string name="list_verifying_update">Verificare actualizare</string>
     <string name="list_no_updates">Nicio actualizare nouă găsită. Pentru a verifica manual pentru noi actualizări, utilizați butonul Reîmprospătare.</string>
     <string name="blocked_update_dialog_title">Actualizare blocată</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="blocked_update_dialog_summary">Această actualizare necesită o procedură manuală de instalare de la zero (Ștergerea/formatarea partiției de date înainte de a instala actualizarea). Descarcă actualizarea de pe site-ul nostru, repornește în modul de recuperare și urmează procedurile pentru a face acest lucru.</string>
     <!-- Actions -->
     <string name="action_download">Descărcați</string>
     <string name="action_pause">Pauză</string>
@@ -59,9 +59,9 @@
     <string name="pause_button">Pauză</string>
     <string name="resume_button">Reluaţi</string>
     <string name="reboot">Repornire</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
-    <string name="details_button">View details</string>
+    <string name="reboot_needed_dialog_title">Repornire necesară</string>
+    <string name="reboot_needed_dialog_summary">Pentru a finaliza instalarea actualizării, dispozitivul trebuie repornit. Dorești să repornești acum?</string>
+    <string name="details_button">Vizualizare detalii</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Aplicaţi actualizarea</string>
     <string name="apply_update_dialog_message">Sunteți pe cale de a face upgrade la <xliff:g id="update_name">%1$s</xliff:g>.\n\nDacă apăsați <xliff:g id="ok">%2$s</xliff:g>, dispozitivul se va restarta în modul de recuperare pentru a instala actualizarea.\n\nNotă: Această caracteristică necesită o Recuperare compatibilă sau actualizările vor trebui să fie instalate manual.</string>
@@ -74,10 +74,10 @@
     <string name="dialog_battery_low_title">Baterie slabă</string>
     <string name="dialog_battery_low_message_pct">Nivelul bateriei este prea scăzut. Aveți nevoie de cel puțin<xliff:g id="percent_discharging">%1$d</xliff:g>%% pentru a continua, <xliff:g id="percent_charging">%2$d</xliff:g>%% dacă telefonul este la încărcat.</string>
     <!-- Export update -->
-    <string name="update_export_success">Update exported</string>
-    <string name="update_export_failed">Failed to export update</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_success">Actualizare exportată</string>
+    <string name="update_export_failed">Eroare la exportarea actualizării</string>
+    <string name="update_export_in_progress">Se exportă deja o actualizare</string>
+    <string name="update_export_started">Actualizarea este în curs de export…</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="one">1 secundă rămasă</item>
@@ -95,9 +95,9 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> (de) ore rămase</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_over_metered_network_title">Warning</string>
-    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_metered_network_warning">Do not show again</string>
+    <string name="update_over_metered_network_title">Avertisment</string>
+    <string name="update_over_metered_network_message">Ești pe cale de a descărca un pachet de actualizare printr-o rețea contorizată, care, probabil, va provoca o utilizare ridicată a datelor. Vrei să continui?</string>
+    <string name="checkbox_metered_network_warning">Nu se mai afișează</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Dezvoltator</string>
     <string name="donate_info_title">Donează</string>
@@ -110,11 +110,11 @@
     <string name="forum_info_summary">Vizualizaţi postările forumului</string>
     <string name="error_open_url">Nu s-a reușit deschiderea adresei URL în browser</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
+    <string name="local_update_title">Actualizare locală</string>
+    <string name="local_update_summary">Aplică actualizarea din stocarea locală</string>
+    <string name="local_update_import_success">Ai ales:\n%1$s\n\nDorești să instalezi?</string>
+    <string name="local_update_import_disabled">Nu se poate importa actualizarea locală la descărcarea sau instalarea actualizării</string>
+    <string name="local_update_import_failure">Eroare la importarea actualizării locale</string>
     <string name="local_update_import_install">Instalați</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_import_progress">Se importă actualizarea locală\u2026</string>
 </resources>
