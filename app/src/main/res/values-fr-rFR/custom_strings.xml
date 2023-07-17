@@ -77,7 +77,7 @@
     <string name="update_export_success">Mise à jour exportée</string>
     <string name="update_export_failed">Échec de l\'export de la mise à jour.</string>
     <string name="update_export_in_progress">Une mise à jour est déjà en cours d\'export</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_started">La mise à jour est en cours d\'export…</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="one">temps restant : 1 seconde</item>
@@ -92,9 +92,9 @@
         <item quantity="other">temps restant : <xliff:g id="count">%d</xliff:g> heures</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_over_metered_network_title">Warning</string>
-    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_metered_network_warning">Do not show again</string>
+    <string name="update_over_metered_network_title">Avertissement</string>
+    <string name="update_over_metered_network_message">Vous êtes sur le point de télécharger une mise à jour via les données mobiles, ce qui entraînera probablement une consommation élevée des données. Voulez vous continuer ?</string>
+    <string name="checkbox_metered_network_warning">Ne plus afficher</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Mainteneur</string>
     <string name="donate_info_title">Faire un don</string>
@@ -107,11 +107,11 @@
     <string name="forum_info_summary">Voir les messages du forum</string>
     <string name="error_open_url">Échec de l\'ouverture de l’URL dans le navigateur</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
+    <string name="local_update_title">Mise à jour locale</string>
+    <string name="local_update_summary">Appliquer la mise à jour depuis le stockage local</string>
+    <string name="local_update_import_success">Vous avez choisi :\n%1$s\n\nVoulez-vous l\'installer ?</string>
+    <string name="local_update_import_disabled">Impossible d\'importer la mise à jour locale lors du téléchargement ou de l\'installation de la mise à jour</string>
+    <string name="local_update_import_failure">Impossible d\'importer la mise à jour locale</string>
     <string name="local_update_import_install">Installer</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_import_progress">Importation de la mise à jour locale\u2026</string>
 </resources>
