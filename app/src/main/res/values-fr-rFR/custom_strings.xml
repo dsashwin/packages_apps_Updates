@@ -30,7 +30,7 @@
     <string name="download_completed_notification">Téléchargement terminé</string>
     <string name="download_starting_notification">Début du téléchargement</string>
     <string name="update_failed_notification">Échec de la mise à jour</string>
-    <string name="check_for_update">Check for update</string>
+    <string name="check_for_update">Vérifier les mises à jour</string>
     <!-- Menu -->
     <string name="menu_delete_update">Supprimer</string>
     <string name="menu_export_update">Exporter la mise à jour</string>
@@ -47,7 +47,7 @@
     <string name="list_verifying_update">Vérification de la mise à jour en cours</string>
     <string name="list_no_updates">Aucune nouvelle mise à jour trouvée. Pour vérifier manuellement la présence de mises à jour, utiliser le bouton Actualiser.</string>
     <string name="blocked_update_dialog_title">Mise à jour bloquée</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="blocked_update_dialog_summary">Cette mise à jour nécessite une procédure d\'installation manuelle propre (effacement / formatage de la partition de données avant l\'installation de la mise à jour). Veuillez télécharger la mise à jour sur notre site Web, redémarrer en mode de récupération et suivre les instructions.</string>
     <!-- Actions -->
     <string name="action_download">Télécharger</string>
     <string name="action_pause">Mettre en pause</string>
@@ -59,9 +59,9 @@
     <string name="pause_button">Mettre en pause</string>
     <string name="resume_button">Reprendre</string>
     <string name="reboot">Redémarrer</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
-    <string name="details_button">View details</string>
+    <string name="reboot_needed_dialog_title">Redémarrage nécessaire</string>
+    <string name="reboot_needed_dialog_summary">Pour terminer l\'installation de la mise à jour, votre appareil doit être redémarré. Voulez-vous redémarrer maintenant ?</string>
+    <string name="details_button">Afficher les détails</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Appliquer la mise à jour</string>
     <string name="apply_update_dialog_message">Vous êtes sur le point d\'installer <xliff:g id="update_name">%1$s</xliff:g>.\n\nLorsque vous appuierez sur <xliff:g id="ok">%2$s</xliff:g>, votre appareil redémarrera automatiquement en mode recovery pour installer la mise à jour.\n\nRemarque : Cette opération nécessite un recovery compatible, sinon les mises à jour devront être installées manuellement.</string>
@@ -74,9 +74,9 @@
     <string name="dialog_battery_low_title">Batterie faible</string>
     <string name="dialog_battery_low_message_pct">Le niveau de batterie est trop faible. Pour continuer, vous devez avoir au moins <xliff:g id="percent_discharging">%1$d</xliff:g> %% de batterie restante, ou <xliff:g id="percent_charging">%2$d</xliff:g> %% si l\'appareil est en charge.</string>
     <!-- Export update -->
-    <string name="update_export_success">Update exported</string>
-    <string name="update_export_failed">Failed to export update</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
+    <string name="update_export_success">Mise à jour exportée</string>
+    <string name="update_export_failed">Échec de l\'export de la mise à jour.</string>
+    <string name="update_export_in_progress">Une mise à jour est déjà en cours d\'export</string>
     <string name="update_export_started">The update is being exported…</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
