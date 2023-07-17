@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App name -->
-    <string name="app_name">System update</string>
+    <string name="app_name">Kemas kini sistem</string>
     <!-- Notifications -->
-    <string name="export_channel_title">Penyelesaian eksport</string>
-    <string name="new_updates_channel_title">Kemaskini baru</string>
+    <string name="export_channel_title">Eksport selesai</string>
+    <string name="new_updates_channel_title">Kemas kini terbaru</string>
     <string name="ongoing_channel_title">Muat turun sedang berlaku</string>
     <string name="update_failed_channel_title">Kemas kini gagal</string>
     <string name="verification_failed_notification">Pengesahan gagal</string>
@@ -30,12 +30,12 @@
     <string name="download_completed_notification">Muat turun selesai</string>
     <string name="download_starting_notification">Memulakan muat turun</string>
     <string name="update_failed_notification">Kemas kini gagal</string>
-    <string name="check_for_update">Check for update</string>
+    <string name="check_for_update">Semak untuk kemas kini</string>
     <!-- Menu -->
     <string name="menu_delete_update">Padam</string>
     <string name="menu_export_update">Eksport kemas kini</string>
     <!-- General -->
-    <string name="update_found_notification">System update available</string>
+    <string name="update_found_notification">Kemaskini tersedia</string>
     <string name="snack_no_updates_found">Tiada kemas kini baru dijumpai</string>
     <string name="snack_updates_check_failed">Semakan kemas kini gagal. Sila periksa sambungan internet anda dan cuba lagi kemudian.</string>
     <string name="snack_download_failed">Muat turun gagal. Sila periksa sambungan internet anda dan cuba lagi kemudian.</string>
@@ -45,9 +45,9 @@
     <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Mengesahkan kemas kini</string>
-    <string name="list_no_updates">No new update found.</string>
+    <string name="list_no_updates">Tiada kemas kini terbaru dijumpai.</string>
     <string name="blocked_update_dialog_title">Kemas kini disekat</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="blocked_update_dialog_summary">Kemas kini ini memerlukan prosedur pemasangan bersih secara manual (Menghapus / Memformat partisi Data sebelum memasang kemas kini). Sila muat turun kemas kini dari laman web kami, boot semula ke mod pemulihan dan ikuti prosedur untuk melakukannya.</string>
     <!-- Actions -->
     <string name="action_download">Muat turun</string>
     <string name="action_pause">Jeda</string>
@@ -59,8 +59,8 @@
     <string name="pause_button">Jeda</string>
     <string name="resume_button">Teruskan</string>
     <string name="reboot">Boot semula</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
+    <string name="reboot_needed_dialog_title">Mula semula diperlukan</string>
+    <string name="reboot_needed_dialog_summary">Untuk menyelesaikan pemasangan kemas kini, peranti anda perlu dimulakan semula. Adakah anda mahu memulakan semula sekarang?</string>
     <string name="details_button">Lihat butiran</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Tetapkan kemaskini</string>
@@ -74,10 +74,10 @@
     <string name="dialog_battery_low_title">Bateri lemah</string>
     <string name="dialog_battery_low_message_pct">Paras bateri terlalu lemah, anda perlu sekurang-kurangnya <xliff:g id="percent_discharging">%1$d</xliff:g>%% bateri untuk teruskan, <xliff:g id="percent_charging">%2$d</xliff:g>%% jika sedang mengecas.</string>
     <!-- Export update -->
-    <string name="update_export_success">Update exported</string>
-    <string name="update_export_failed">Failed to export update</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_success">Kemas kini telah dieksport</string>
+    <string name="update_export_failed">Gagal mengeksport kemas kini</string>
+    <string name="update_export_in_progress">Kemas kini telah pun dieksport</string>
+    <string name="update_export_started">Kemas kini sedang dieksport...</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
@@ -89,9 +89,9 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_over_metered_network_title">Warning</string>
-    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_metered_network_warning">Do not show again</string>
+    <string name="update_over_metered_network_title">Amaran</string>
+    <string name="update_over_metered_network_message">Anda akan memuat turun pakej kemas kini menggunakan data mudah alih yang akan mengakibatkan penggunaan data yang tinggi. Ingin teruskan?</string>
+    <string name="checkbox_metered_network_warning">Jangan paparkan lagi</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Penyelenggara</string>
     <string name="donate_info_title">Menyumbang</string>
@@ -104,11 +104,11 @@
     <string name="forum_info_summary">Lihat catatan forum</string>
     <string name="error_open_url">Gagal untuk membuka pautan di pelayar</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
+    <string name="local_update_title">Kemas kini lokal</string>
+    <string name="local_update_summary">Terap kemas kini daripada storan tempatan</string>
+    <string name="local_update_import_success">Anda telah memilih:\n%1$s\n\nAdakah anda mahu memasangnya?</string>
+    <string name="local_update_import_disabled">Tidak dapat mengimport kemas kini tempatan semasa memuat turun atau memasang kemas kini</string>
+    <string name="local_update_import_failure">Gagal mengimport kemas kini tempatan</string>
     <string name="local_update_import_install">Pasang</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_import_progress">Mengimport kemas kini tempatan\u2026</string>
 </resources>
