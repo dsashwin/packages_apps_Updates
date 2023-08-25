@@ -77,7 +77,7 @@
     <string name="update_export_success">Aktualizacja została wyeksportowana</string>
     <string name="update_export_failed">Nie można wyeksportować aktualizacji</string>
     <string name="update_export_in_progress">Aktualizacja jest już eksportowana</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_started">Aktualizacja jest eksportowana…</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="one">Pozostała 1 sekunda</item>
