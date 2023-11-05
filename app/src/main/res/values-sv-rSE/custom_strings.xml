@@ -38,63 +38,63 @@
     <string name="update_found_notification">Ny uppdatering tillgänglig</string>
     <string name="snack_no_updates_found">Inga nya uppdateringar hittades</string>
     <string name="snack_updates_check_failed">Sökningen efter uppdateringar misslyckades. Var god kontrollera din internetanslutning och försök igen senare.</string>
-    <string name="snack_download_failed">The download failed. Please check your internet connection and try again later.</string>
-    <string name="snack_download_verification_failed">The update verification failed.</string>
+    <string name="snack_download_failed">Nedladdningen misslyckades. Kontrollera din internetanslutning och försök igen senare.</string>
+    <string name="snack_download_verification_failed">Verifieringen av uppdateringen misslyckades.</string>
     <string name="snack_download_verified">Nedladdningen är slutförd.</string>
-    <string name="snack_update_not_installable">This update can\'t be installed on top of the current build.</string>
-    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
-    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
+    <string name="snack_update_not_installable">Uppdateringen kan inte installeras över den nuvarande versionen.</string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> av <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> av <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Verifierar uppdateringen</string>
-    <string name="list_no_updates">No new update found.</string>
-    <string name="blocked_update_dialog_title">Update blocked</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="list_no_updates">Ingen ny uppdatering hittades.</string>
+    <string name="blocked_update_dialog_title">Uppdatering blockerad</string>
+    <string name="blocked_update_dialog_summary">Den här uppdateringen kräver en manuell ren installation (rensa/formatera partitionen Data innan du installerar uppdateringen). Ladda ner uppdateringen från vår hemsida, starta om till återställningsläge och följ procedurerna därifrån.</string>
     <!-- Actions -->
     <string name="action_download">Ladda ner</string>
-    <string name="action_pause">Pause</string>
-    <string name="action_resume">Resume</string>
-    <string name="action_install">Install</string>
+    <string name="action_pause">Pausa</string>
+    <string name="action_resume">Återuppta</string>
+    <string name="action_install">Installera</string>
     <string name="action_delete">Ta bort</string>
     <string name="confirm_delete_dialog_title">Radera fil</string>
     <string name="confirm_delete_dialog_message">Radera markerad uppdateringsfil?</string>
-    <string name="pause_button">Pause</string>
+    <string name="pause_button">Pausa</string>
     <string name="resume_button">Återuppta</string>
     <string name="reboot">Starta om</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
-    <string name="details_button">View details</string>
+    <string name="reboot_needed_dialog_title">Omstart behövs</string>
+    <string name="reboot_needed_dialog_summary">För att färdigställa installationen av uppdateringen så måste din enhet startas om. Vill du starta om nu?</string>
+    <string name="details_button">Visa detaljer</string>
     <!-- Installation -->
-    <string name="apply_update_dialog_title">Apply update</string>
-    <string name="apply_update_dialog_message">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
-    <string name="apply_update_dialog_message_ab">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
+    <string name="apply_update_dialog_title">Installera uppdateringen</string>
+    <string name="apply_update_dialog_message">Du är på väg att uppdatera till <xliff:g id="update_name">%1$s</xliff:g>.\n\nOm du trycker på <xliff:g id="ok">%2$s</xliff:g>, så kommer enheten att starta om i återhämtningsläget för att installera uppdateringen.\n\nOBS: Den här funktionen kräver kompatibel Recovery, annars måste uppdateringen installeras manuellt.</string>
+    <string name="apply_update_dialog_message_ab">Du är på väg att uppdatera till <xliff:g id="update_name">%1$s</xliff:g>.\n\nOm du trycker på <xliff:g id="ok">%2$s</xliff:g> så kommer enheten att påbörja installationen i bakgrunden.\n\nNär den är slutförd kommer du bli ombedd att starta om enheten.</string>
     <string name="installing_update">Installerar uppdateringspaketet</string>
     <string name="installing_update_error">Installationsfel</string>
     <string name="installing_update_finished">Uppdateringen har installerats</string>
-    <string name="finalizing_package">Finalizing package installation</string>
-    <string name="dialog_prepare_zip_message">Preliminary update preparation</string>
+    <string name="finalizing_package">Slutför paketinstallationen</string>
+    <string name="dialog_prepare_zip_message">Preliminär uppdateringsförberedelse</string>
     <string name="dialog_battery_low_title">Låg batterinivå</string>
-    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
+    <string name="dialog_battery_low_message_pct">Batterinivån är för låg, du behöver minst <xliff:g id="percent_discharging">%1$d</xliff:g>%% av batteriet för att fortsätta, <xliff:g id="percent_charging">%2$d</xliff:g>%% vid laddning.</string>
     <!-- Export update -->
-    <string name="update_export_success">Update exported</string>
-    <string name="update_export_failed">Failed to export update</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_success">Uppdateringen exporterades</string>
+    <string name="update_export_failed">Misslyckades att exportera uppdateringen</string>
+    <string name="update_export_in_progress">Exporterar redan en uppdatering</string>
+    <string name="update_export_started">Uppdateringen exporteras…</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
-        <item quantity="one">1 second left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="one">1 sekund kvar</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> sekunder kvar</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="one">1 minute left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="one">1 minut kvar</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minuter kvar</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="one">1 hour left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="one">1 timme kvar</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> timmar kvar</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_over_metered_network_title">Warning</string>
-    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_metered_network_warning">Do not show again</string>
+    <string name="update_over_metered_network_title">Varning</string>
+    <string name="update_over_metered_network_message">Du är på väg att ladda ner en uppdatering över mobilnätet vilket troligtvis kommer att orsaka hög dataanvändning. Vill du fortsätta?</string>
+    <string name="checkbox_metered_network_warning">Visa inte igen</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Underhållare</string>
     <string name="donate_info_title">Donera</string>
@@ -107,11 +107,11 @@
     <string name="forum_info_summary">Visa inlägg i forumet</string>
     <string name="error_open_url">Det gick inte att öppna URL i webbläsaren</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
-    <string name="local_update_import_install">Install</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_title">Lokal uppdatering</string>
+    <string name="local_update_summary">Tillämpa uppdatering från lokal lagring</string>
+    <string name="local_update_import_success">Du har valt:\n%1$s\n\nVill du installera den?</string>
+    <string name="local_update_import_disabled">Kan inte importera lokal uppdatering när du laddar ner eller installerar uppdatering</string>
+    <string name="local_update_import_failure">Kunde inte importera lokal uppdatering</string>
+    <string name="local_update_import_install">Installera</string>
+    <string name="local_update_import_progress">Importerar lokal uppdatering\u2026</string>
 </resources>
