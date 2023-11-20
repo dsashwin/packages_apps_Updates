@@ -30,7 +30,7 @@
     <string name="download_completed_notification">다운로드 완료</string>
     <string name="download_starting_notification">다운로드 시작</string>
     <string name="update_failed_notification">업데이트 실패</string>
-    <string name="check_for_update">Check for update</string>
+    <string name="check_for_update">업데이트 확인</string>
     <!-- Menu -->
     <string name="menu_delete_update">삭제</string>
     <string name="menu_export_update">업데이트 내보내기</string>
@@ -47,7 +47,7 @@
     <string name="list_verifying_update">업데이트 검증 중</string>
     <string name="list_no_updates">새로운 업데이트가 없습니다. 수동으로 새 업데이트를 확인하려면 새로고침 버튼을 누르세요.</string>
     <string name="blocked_update_dialog_title">업데이트 차단됨</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="blocked_update_dialog_summary">이 업데이트는 수동 초기화 설치 작업이 필요합니다(이 업데이트를 설치하기 전에 Data 파티션을 Wipe 또는 포맷해야 합니다). 빌드를 저희 웹사이트에서 다운로드하고, 복구(리커버리) 모드로 다시 시작 후 순서에 따라 설치 작업을 진행하세요.</string>
     <!-- Actions -->
     <string name="action_download">다운로드</string>
     <string name="action_pause">일시 중지</string>
@@ -59,9 +59,9 @@
     <string name="pause_button">일시 중지</string>
     <string name="resume_button">이어 받기</string>
     <string name="reboot">다시 시작</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
-    <string name="details_button">View details</string>
+    <string name="reboot_needed_dialog_title">재시작 필요</string>
+    <string name="reboot_needed_dialog_summary">업데이트 설치를 완료하려면 장치를 다시 시작해야합니다. 지금 다시 시작 하시겠습니까?</string>
+    <string name="details_button">세부사항 보기</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">업데이트 적용</string>
     <string name="apply_update_dialog_message"><xliff:g id="update_name">%1$s</xliff:g> 버전으로 업그레이드를 시도하려 합니다.\n\n<xliff:g id="ok">%2$s</xliff:g>을 누르면 업데이트를 설치하기 위해 기기가 리커버리 모드로 다시 시작됩니다.\n\n주의: 이 기능은 호환되는 리커버리가 필요하며, 없을 경우 업데이트를 수동으로 설치해야 합니다.</string>
@@ -74,10 +74,10 @@
     <string name="dialog_battery_low_title">배터리 부족</string>
     <string name="dialog_battery_low_message_pct">배터리 수준이 너무 낮습니다. 계속하려면 방전 중일 경우 <xliff:g id="percent_discharging">%1$d</xliff:g>%% 이상, 충전 중일 경우 <xliff:g id="percent_charging">%2$d</xliff:g>%% 이상의 배터리 수준이 필요합니다.</string>
     <!-- Export update -->
-    <string name="update_export_success">Update exported</string>
-    <string name="update_export_failed">Failed to export update</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_success">업데이트를 내보냈습니다</string>
+    <string name="update_export_failed">업데이트 내보내기 실패</string>
+    <string name="update_export_in_progress">이미 업데이트를 내보내는 중입니다</string>
+    <string name="update_export_started">업데이트를 내보내는 중...</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="other"><xliff:g id="count">%d</xliff:g>초 남음</item>
@@ -89,9 +89,9 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g>시간 남음</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_over_metered_network_title">Warning</string>
-    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_metered_network_warning">Do not show again</string>
+    <string name="update_over_metered_network_title">경고</string>
+    <string name="update_over_metered_network_message">모바일 데이터를 사용하여 업데이트 패키지를 다운로드하려 합니다. 데이터를 매우 많이 사용하게 될 수 있습니다. 정말 계속하시겠습니까?</string>
+    <string name="checkbox_metered_network_warning">다시 표시하지 않기</string>
     <!-- Info section -->
     <string name="maintainer_info_title">관리자</string>
     <string name="donate_info_title">기부</string>
@@ -104,7 +104,7 @@
     <string name="forum_info_summary">포럼 게시물 보기</string>
     <string name="error_open_url">브라우저에서 URL을 열지 못했습니다.</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
+    <string name="local_update_title">로컬 업데이트</string>
     <string name="local_update_summary">Apply update from local storage</string>
     <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
     <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
