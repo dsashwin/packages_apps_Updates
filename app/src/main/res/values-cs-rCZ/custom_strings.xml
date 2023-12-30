@@ -58,7 +58,7 @@
     <string name="confirm_delete_dialog_message">Smazat zvolený soubor aktualizace?</string>
     <string name="pause_button">Pozastavit</string>
     <string name="resume_button">Obnovit</string>
-    <string name="reboot">Reboot</string>
+    <string name="reboot">Restartovat</string>
     <string name="reboot_needed_dialog_title">Restart needed</string>
     <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
     <string name="details_button">Zobrazit podrobnosti</string>
