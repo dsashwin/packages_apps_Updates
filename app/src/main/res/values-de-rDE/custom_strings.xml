@@ -30,7 +30,7 @@
     <string name="download_completed_notification">Herunterladen abgeschlossen</string>
     <string name="download_starting_notification">Herunterladen wird gestartet</string>
     <string name="update_failed_notification">Update fehlgeschlagen</string>
-    <string name="check_for_update">Check for update</string>
+    <string name="check_for_update">Auf Update prüfen</string>
     <!-- Menu -->
     <string name="menu_delete_update">Löschen</string>
     <string name="menu_export_update">Update exportieren</string>
@@ -47,7 +47,7 @@
     <string name="list_verifying_update">Update wird geprüft</string>
     <string name="list_no_updates">Keine neuen Updates gefunden. Um manuell nach neuen Updates zu suchen, verwenden Sie die Schaltfläche \"Aktualisieren\".</string>
     <string name="blocked_update_dialog_title">Update blockiert</string>
-    <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the update from our website, reboot to recovery mode and follow the procedures to do so.</string>
+    <string name="blocked_update_dialog_summary">Dieses Update erfordert eine manuelle Neuinstallation (Löschen / Formatieren der Datenpartition vor der Installation des Updates). Laden Sie das Update von unserer Website herunter, starten Sie es im Recoverymodus neu und befolgen Sie die entsprechenden Anweisungen.</string>
     <!-- Actions -->
     <string name="action_download">Herunterladen</string>
     <string name="action_pause">Anhalten</string>
@@ -59,7 +59,7 @@
     <string name="pause_button">Anhalten</string>
     <string name="resume_button">Fortsetzen</string>
     <string name="reboot">Neustart</string>
-    <string name="reboot_needed_dialog_title">Restart needed</string>
+    <string name="reboot_needed_dialog_title">Neustart erforderlich</string>
     <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
     <string name="details_button">View details</string>
     <!-- Installation -->
