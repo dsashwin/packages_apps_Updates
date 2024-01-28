@@ -60,8 +60,8 @@
     <string name="resume_button">Fortsetzen</string>
     <string name="reboot">Neustart</string>
     <string name="reboot_needed_dialog_title">Neustart erforderlich</string>
-    <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
-    <string name="details_button">View details</string>
+    <string name="reboot_needed_dialog_summary">Um die Installation des Updates abzuschließen, muss Ihr Gerät neu gestartet werden. Möchtest du es jetzt neu starten?</string>
+    <string name="details_button">Details anzeigen</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Update installieren</string>
     <string name="apply_update_dialog_message">Bereit zum Update auf <xliff:g id="update_name">%1$s</xliff:g>\n\nWenn Sie <xliff:g id="ok">%2$s</xliff:g> drücken, wird das Gerät im Recovery-Modus gestartet, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery-System, anderenfalls muss das Update manuell installiert werden.</string>
@@ -74,10 +74,10 @@
     <string name="dialog_battery_low_title">Niedriger Akkustand</string>
     <string name="dialog_battery_low_message_pct">Ihr Akkustand ist zu niedrig. Es werden mindestens <xliff:g id="percent_discharging">%1$d</xliff:g>%% Restkapazität (oder <xliff:g id="percent_charging">%2$d</xliff:g>%% mit angeschlossenem Ladegerät) benötigt, um fortzufahren.</string>
     <!-- Export update -->
-    <string name="update_export_success">Update exported</string>
-    <string name="update_export_failed">Failed to export update</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
-    <string name="update_export_started">The update is being exported…</string>
+    <string name="update_export_success">Aktualisierung exportiert</string>
+    <string name="update_export_failed">Fehler beim Exportieren des Updates</string>
+    <string name="update_export_in_progress">Aktualisierung wird bereits exportiert</string>
+    <string name="update_export_started">Das Update wird exportiert…</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="one">noch 1 Sekunde</item>
@@ -92,9 +92,9 @@
         <item quantity="other">noch <xliff:g id="count">%d</xliff:g> Stunden</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_over_metered_network_title">Warning</string>
-    <string name="update_over_metered_network_message">You\'re about to download an update package over a metered network which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_metered_network_warning">Do not show again</string>
+    <string name="update_over_metered_network_title">Warnung</string>
+    <string name="update_over_metered_network_message">Du bist im Begriff, ein Update-Paket über ein gebührenpflichtiges Netz herunterzuladen, das wahrscheinlich einen hohen Datenverbrauch verursacht. Möchtest du fortfahren?</string>
+    <string name="checkbox_metered_network_warning">Nicht erneut anzeigen</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Betreuer</string>
     <string name="donate_info_title">Spenden</string>
@@ -107,11 +107,11 @@
     <string name="forum_info_summary">Zeige Forenbeiträge</string>
     <string name="error_open_url">Öffnen der URL im Browser fehlgeschlagen</string>
     <!-- Local update -->
-    <string name="local_update_title">Local update</string>
-    <string name="local_update_summary">Apply update from local storage</string>
-    <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
-    <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
-    <string name="local_update_import_failure">Failed to import local update</string>
+    <string name="local_update_title">Lokales Update</string>
+    <string name="local_update_summary">Update über den lokalen Speicher durchführen</string>
+    <string name="local_update_import_success">Du hast folgende Version gewählt:\n%1$s\n\n möchtest du es installieren?</string>
+    <string name="local_update_import_disabled">Lokales Update kann beim Herunterladen oder Installieren von Updates nicht importiert werden</string>
+    <string name="local_update_import_failure">Fehler beim Importieren des lokalen Updates</string>
     <string name="local_update_import_install">Installieren</string>
-    <string name="local_update_import_progress">Importing local update\u2026</string>
+    <string name="local_update_import_progress">Lokales Update wird importiert\u2026</string>
 </resources>
