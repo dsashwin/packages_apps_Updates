@@ -18,7 +18,7 @@
     <!-- App name -->
     <string name="app_name">系统更新</string>
     <!-- Notifications -->
-    <string name="export_channel_title">Export completion</string>
+    <string name="export_channel_title">导出已完成</string>
     <string name="new_updates_channel_title">新的更新</string>
     <string name="ongoing_channel_title">正在下载</string>
     <string name="update_failed_channel_title">更新失败</string>
@@ -42,8 +42,8 @@
     <string name="snack_download_verification_failed">升级验证失败。</string>
     <string name="snack_download_verified">下载完成。</string>
     <string name="snack_update_not_installable">此更新无法安装在当前版本之上。</string>
-    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
-    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> / <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> / <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">验证更新</string>
     <string name="list_no_updates">没有找到可用的更新。</string>
     <string name="blocked_update_dialog_title">更新被阻止</string>
