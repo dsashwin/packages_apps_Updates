@@ -18,18 +18,18 @@
     <!-- App name -->
     <string name="app_name">सिस्टम अद्यतनीकरण</string>
     <!-- Notifications -->
-    <string name="export_channel_title">Export completion</string>
-    <string name="new_updates_channel_title">New updates</string>
-    <string name="ongoing_channel_title">Ongoing downloads</string>
-    <string name="update_failed_channel_title">Update failed</string>
-    <string name="verification_failed_notification">Verification failed</string>
+    <string name="export_channel_title">निर्यात पूर्ण</string>
+    <string name="new_updates_channel_title">नए अपडेट</string>
+    <string name="ongoing_channel_title">डाउनलोड जारी है</string>
+    <string name="update_failed_channel_title">अपडेट विफल</string>
+    <string name="verification_failed_notification">पुष्टिकरण असफल</string>
     <string name="verifying_download_notification">Verifying update</string>
     <string name="downloading_notification">Downloading</string>
     <string name="download_paused_notification">Download paused</string>
     <string name="download_paused_error_notification">Download error</string>
     <string name="download_completed_notification">Download completed</string>
     <string name="download_starting_notification">Starting download</string>
-    <string name="update_failed_notification">Update failed</string>
+    <string name="update_failed_notification">अपडेट विफल</string>
     <string name="check_for_update">Check for update</string>
     <!-- Menu -->
     <string name="menu_delete_update">Delete</string>
@@ -58,7 +58,7 @@
     <string name="confirm_delete_dialog_message">चयनित अद्यतन फ़ाइल हटाएं?</string>
     <string name="pause_button">Pause</string>
     <string name="resume_button">Resume</string>
-    <string name="reboot">Reboot</string>
+    <string name="reboot">रिबूट</string>
     <string name="reboot_needed_dialog_title">Restart needed</string>
     <string name="reboot_needed_dialog_summary">To complete the installation of the update, your device needs to be restarted. Do you want to restart now?</string>
     <string name="details_button">View details</string>
@@ -76,7 +76,7 @@
     <!-- Export update -->
     <string name="update_export_success">Update exported</string>
     <string name="update_export_failed">Failed to export update</string>
-    <string name="update_export_in_progress">Already exporting an update</string>
+    <string name="update_export_in_progress">पहले से ही एक अपडेट निर्यात किया जा रहा है</string>
     <string name="update_export_started">The update is being exported…</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
@@ -112,6 +112,6 @@
     <string name="local_update_import_success">You have chosen:\n%1$s\n\nDo you want to install it?</string>
     <string name="local_update_import_disabled">Can\'t import local update when downloading or installing update</string>
     <string name="local_update_import_failure">Failed to import local update</string>
-    <string name="local_update_import_install">Install</string>
+    <string name="local_update_import_install">इनस्टॉल</string>
     <string name="local_update_import_progress">Importing local update\u2026</string>
 </resources>
