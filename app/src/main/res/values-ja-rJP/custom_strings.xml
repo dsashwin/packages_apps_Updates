@@ -83,7 +83,7 @@
         <item quantity="other">残り<xliff:g id="count">%d</xliff:g>秒</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="other">残り<xliff:g id="count">%d</xliff:g>分</item>
+        <item quantity="other">残り <xliff:g id="count">%d</xliff:g> 分</item>
     </plurals>
     <plurals name="eta_hours">
         <item quantity="other">残り<xliff:g id="count">%d</xliff:g>時間</item>
