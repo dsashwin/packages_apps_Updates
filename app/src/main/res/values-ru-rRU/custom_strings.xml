@@ -38,7 +38,7 @@
     <string name="update_found_notification">Доступно новое обновление</string>
     <string name="snack_no_updates_found">Обновлений не найдено</string>
     <string name="snack_updates_check_failed">Не удалось выполнить проверку обновлений. Проверьте подключение к Интернету и повторите попытку.</string>
-    <string name="snack_download_failed">Загрузка не удалась. Проверьте подключение к Интернету и повторите попытку.</string>
+    <string name="snack_download_failed">Загрузка не удалась. Проверьте подключение к интернету и повторите попытку.</string>
     <string name="snack_download_verification_failed">Ошибка проверки обновления.</string>
     <string name="snack_download_verified">Загрузка завершена.</string>
     <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки.</string>
@@ -99,7 +99,7 @@
     </plurals>
     <!-- Mobile data warning -->
     <string name="update_over_metered_network_title">Внимание</string>
-    <string name="update_over_metered_network_message">Вы собираетесь загрузить пакет обновления через мобильную сеть, что, вероятно, приведет к значительному расходу данных. Продолжить?</string>
+    <string name="update_over_metered_network_message">Вы собираетесь загрузить пакет обновления через мобильную сеть, что, вероятно, приведёт к значительному расходу данных. Продолжить?</string>
     <string name="checkbox_metered_network_warning">Не показывать снова</string>
     <!-- Info section -->
     <string name="maintainer_info_title">Разработчик</string>
