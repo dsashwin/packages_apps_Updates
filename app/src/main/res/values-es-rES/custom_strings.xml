@@ -32,7 +32,7 @@
     <string name="update_failed_notification">Actualización fallida</string>
     <string name="check_for_update">Comprobar actualizaciones</string>
     <!-- Menu -->
-    <string name="menu_delete_update">Borrar</string>
+    <string name="menu_delete_update">Eliminar</string>
     <string name="menu_export_update">Exportar actualización</string>
     <!-- General -->
     <string name="update_found_notification">Nueva actualización disponible</string>
@@ -54,7 +54,7 @@
     <string name="action_resume">Reanudar</string>
     <string name="action_install">Instalar</string>
     <string name="action_delete">Eliminar</string>
-    <string name="confirm_delete_dialog_title">Borrar archivo</string>
+    <string name="confirm_delete_dialog_title">Eliminar archivo</string>
     <string name="confirm_delete_dialog_message">¿Eliminar el archivo de actualización seleccionado?</string>
     <string name="pause_button">Pausar</string>
     <string name="resume_button">Reanudar</string>
